@@ -1,11 +1,11 @@
 import { NavBar } from "./components/NavBar"
-import { Posts } from "./components/PostsWrapper"
+import { ProductsWrapper } from "./components/ProductsWrapper"
 
 function App() {
   return (
     <>
       <NavBar />
-      <Posts />
+      <ProductsWrapper />
     </>
   )
 }

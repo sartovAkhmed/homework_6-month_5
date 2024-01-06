@@ -1,14 +1,14 @@
 import React from 'react'
 
-import { increaseCounter } from '../store/productSlice'
+import { increaseProduct } from '../store/productSlice'
 import { useDispatch, useSelector } from 'react-redux'
 
-export const Posts = () => {
+export const ProductsWrapper = () => {
     const products = useSelector((state) => state.products.product)
     const dispatch = useDispatch()
 
     const bayProduct = () => {
-        dispatch(increaseCounter())
+        dispatch(increaseProduct())
     }
 
     return (

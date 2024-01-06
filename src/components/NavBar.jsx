@@ -1,6 +1,5 @@
 import React from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { increaseCounter } from '../store/productSlice'
+import { useSelector } from 'react-redux'
 
 export const NavBar = () => {
     const count = useSelector((state) => state.products.count)
